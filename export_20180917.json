@@ -1,0 +1,1282 @@
+[
+  {
+    "_id": "f19c03c0-a451-11e8-8d4e-b3633d22339c",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Dashboard-Rsyslog",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"c4e16560-a3c9-11e8-af81-5bab00f837a5\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"609e1840-a451-11e8-8d4e-b3633d22339c\",\"panelIndex\":2,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":6,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"e9b08200-ab5c-11e8-84fc-a10d5432b172\",\"col\":1,\"row\":4},{\"size_x\":6,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"c1224670-ab5c-11e8-84fc-a10d5432b172\",\"col\":7,\"row\":4}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "59ad9110-ac48-11e8-84de-0371b72c28eb",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Rsyslog-Host",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"263202a0-ac46-11e8-813c-bbe6375ccd6c\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"75fca560-ac46-11e8-813c-bbe6375ccd6c\",\"panelIndex\":2,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"459b8b70-ac46-11e8-813c-bbe6375ccd6c\",\"panelIndex\":3,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"a53a4df0-ac46-11e8-813c-bbe6375ccd6c\",\"panelIndex\":4,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"c886f470-ac32-11e8-9367-dd2b5b2ff2b4\",\"panelIndex\":5,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"4810d660-ac34-11e8-9367-dd2b5b2ff2b4\",\"panelIndex\":6,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"fb015170-ac32-11e8-9367-dd2b5b2ff2b4\",\"panelIndex\":7,\"row\":10,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"8083ac70-ac34-11e8-9367-dd2b5b2ff2b4\",\"panelIndex\":8,\"row\":10,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"45644970-ac33-11e8-9367-dd2b5b2ff2b4\",\"panelIndex\":9,\"row\":13,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"c551f970-ac38-11e8-a94a-e17a912bcb5c\",\"panelIndex\":10,\"row\":13,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"660ce1f0-ac33-11e8-9367-dd2b5b2ff2b4\",\"panelIndex\":11,\"row\":16,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"bf5f61e0-ac3a-11e8-a94a-e17a912bcb5c\",\"panelIndex\":12,\"row\":16,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"d4647580-abf9-11e8-858a-edafa8b89cb0\",\"panelIndex\":13,\"row\":19,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"2c98f5f0-ac3b-11e8-a94a-e17a912bcb5c\",\"panelIndex\":14,\"row\":19,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"72714970-abfe-11e8-858a-edafa8b89cb0\",\"panelIndex\":15,\"row\":22,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"722fe6f0-ac3b-11e8-a94a-e17a912bcb5c\",\"panelIndex\":16,\"row\":22,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"ad353b70-abfe-11e8-858a-edafa8b89cb0\",\"panelIndex\":17,\"row\":25,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"14a67a70-ac3c-11e8-a94a-e17a912bcb5c\",\"panelIndex\":18,\"row\":25,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"52b835b0-ac2d-11e8-9367-dd2b5b2ff2b4\",\"panelIndex\":19,\"row\":28,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"dd331300-ac3b-11e8-a94a-e17a912bcb5c\",\"panelIndex\":20,\"row\":28,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"bba29e70-ac2e-11e8-9367-dd2b5b2ff2b4\",\"panelIndex\":21,\"row\":31,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"60da88f0-ac3c-11e8-a94a-e17a912bcb5c\",\"panelIndex\":24,\"row\":31,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"size_x\":6,\"size_y\":3,\"panelIndex\":25,\"type\":\"visualization\",\"id\":\"26cafe60-ac32-11e8-9367-dd2b5b2ff2b4\",\"col\":1,\"row\":34},{\"size_x\":6,\"size_y\":3,\"panelIndex\":26,\"type\":\"visualization\",\"id\":\"991ed4f0-ac3c-11e8-a94a-e17a912bcb5c\",\"col\":7,\"row\":34},{\"size_x\":6,\"size_y\":3,\"panelIndex\":27,\"type\":\"visualization\",\"id\":\"508b9f70-ac32-11e8-9367-dd2b5b2ff2b4\",\"col\":1,\"row\":37},{\"size_x\":6,\"size_y\":3,\"panelIndex\":28,\"type\":\"visualization\",\"id\":\"c832d570-ac3c-11e8-a94a-e17a912bcb5c\",\"col\":7,\"row\":37},{\"size_x\":6,\"size_y\":3,\"panelIndex\":29,\"type\":\"visualization\",\"id\":\"8368dcf0-ac32-11e8-9367-dd2b5b2ff2b4\",\"col\":1,\"row\":40},{\"size_x\":6,\"size_y\":3,\"panelIndex\":30,\"type\":\"visualization\",\"id\":\"8e8abe40-ac3d-11e8-a94a-e17a912bcb5c\",\"col\":7,\"row\":40}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-10\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-12\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-13\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-14\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-15\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-16\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-17\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-18\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-19\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-20\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-21\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-24\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-6\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-8\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-9\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-25\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-26\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-27\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-28\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-29\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-30\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "88cc5ba0-b63b-11e8-ad56-d3f4bb8101cd",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Rsyslog-ST",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":6,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"e8130550-b636-11e8-87d3-0505dbe94689\",\"col\":1,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"f2164650-b638-11e8-87d3-0505dbe94689\",\"col\":7,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"2a498d40-b637-11e8-87d3-0505dbe94689\",\"col\":1,\"row\":4},{\"size_x\":6,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"27dfce50-b639-11e8-87d3-0505dbe94689\",\"col\":7,\"row\":4},{\"size_x\":6,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"d3990ec0-b637-11e8-87d3-0505dbe94689\",\"col\":1,\"row\":7},{\"size_x\":6,\"size_y\":3,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"938db950-b639-11e8-87d3-0505dbe94689\",\"col\":7,\"row\":7},{\"size_x\":6,\"size_y\":3,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"0fe01e50-b638-11e8-87d3-0505dbe94689\",\"col\":1,\"row\":10},{\"size_x\":6,\"size_y\":3,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"bd483fe0-b639-11e8-87d3-0505dbe94689\",\"col\":7,\"row\":10},{\"size_x\":6,\"size_y\":3,\"panelIndex\":9,\"type\":\"visualization\",\"id\":\"2beebc50-b638-11e8-87d3-0505dbe94689\",\"col\":1,\"row\":13},{\"size_x\":6,\"size_y\":3,\"panelIndex\":10,\"type\":\"visualization\",\"id\":\"146b39d0-b63a-11e8-87d3-0505dbe94689\",\"col\":7,\"row\":13},{\"size_x\":6,\"size_y\":3,\"panelIndex\":11,\"type\":\"visualization\",\"id\":\"4d371740-b638-11e8-87d3-0505dbe94689\",\"col\":1,\"row\":16},{\"size_x\":6,\"size_y\":3,\"panelIndex\":12,\"type\":\"visualization\",\"id\":\"44afcb10-b63a-11e8-87d3-0505dbe94689\",\"col\":7,\"row\":16},{\"size_x\":6,\"size_y\":3,\"panelIndex\":13,\"type\":\"visualization\",\"id\":\"7cca0bc0-b638-11e8-87d3-0505dbe94689\",\"col\":1,\"row\":19},{\"size_x\":6,\"size_y\":3,\"panelIndex\":14,\"type\":\"visualization\",\"id\":\"879ea680-b63a-11e8-ad56-d3f4bb8101cd\",\"col\":7,\"row\":19},{\"size_x\":6,\"size_y\":3,\"panelIndex\":15,\"type\":\"visualization\",\"id\":\"9ba7cf50-b638-11e8-87d3-0505dbe94689\",\"col\":1,\"row\":22},{\"size_x\":6,\"size_y\":3,\"panelIndex\":16,\"type\":\"visualization\",\"id\":\"c06ce300-b63a-11e8-ad56-d3f4bb8101cd\",\"col\":7,\"row\":22}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-6\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-8\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-9\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-10\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-11\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-12\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-13\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-14\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-15\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-16\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now/d",
+      "timeFrom": "now/d",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "df32ca20-ba5e-11e8-8320-992b55e55dd3",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Rsyslog-Delivery",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":6,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"089f3a10-ba46-11e8-8400-5f3f7e6572c0\",\"col\":1,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"40361290-ba47-11e8-8400-5f3f7e6572c0\",\"col\":7,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"ef9c6a90-ba47-11e8-8400-5f3f7e6572c0\",\"col\":1,\"row\":4},{\"size_x\":6,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"40ff6090-ba48-11e8-8400-5f3f7e6572c0\",\"col\":7,\"row\":4},{\"size_x\":6,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"b7916190-ba48-11e8-8400-5f3f7e6572c0\",\"col\":1,\"row\":7},{\"size_x\":6,\"size_y\":3,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"164093f0-ba49-11e8-8400-5f3f7e6572c0\",\"col\":7,\"row\":7},{\"size_x\":6,\"size_y\":3,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"47ad7890-ba49-11e8-8400-5f3f7e6572c0\",\"col\":1,\"row\":10},{\"size_x\":6,\"size_y\":3,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"a78e2610-ba49-11e8-8400-5f3f7e6572c0\",\"col\":7,\"row\":10}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-6\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-8\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now/d",
+      "timeFrom": "now/d",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "2969d020-ba5f-11e8-8320-992b55e55dd3",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Rsyslog-Tracking",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"size_x\":6,\"size_y\":3,\"panelIndex\":1,\"type\":\"visualization\",\"id\":\"1d1ff520-ba4a-11e8-8400-5f3f7e6572c0\",\"col\":1,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":2,\"type\":\"visualization\",\"id\":\"49e8b0a0-ba4b-11e8-8400-5f3f7e6572c0\",\"col\":7,\"row\":1},{\"size_x\":6,\"size_y\":3,\"panelIndex\":3,\"type\":\"visualization\",\"id\":\"ff992420-ba4b-11e8-8400-5f3f7e6572c0\",\"col\":1,\"row\":4},{\"size_x\":6,\"size_y\":3,\"panelIndex\":4,\"type\":\"visualization\",\"id\":\"2746a730-ba4d-11e8-8400-5f3f7e6572c0\",\"col\":7,\"row\":4},{\"size_x\":6,\"size_y\":3,\"panelIndex\":5,\"type\":\"visualization\",\"id\":\"4dee8f30-ba50-11e8-8400-5f3f7e6572c0\",\"col\":1,\"row\":7},{\"size_x\":6,\"size_y\":3,\"panelIndex\":6,\"type\":\"visualization\",\"id\":\"53229e70-ba5e-11e8-8320-992b55e55dd3\",\"col\":7,\"row\":7},{\"size_x\":6,\"size_y\":3,\"panelIndex\":7,\"type\":\"visualization\",\"id\":\"9189cee0-ba5e-11e8-8320-992b55e55dd3\",\"col\":1,\"row\":10},{\"size_x\":6,\"size_y\":3,\"panelIndex\":8,\"type\":\"visualization\",\"id\":\"c2467650-ba5e-11e8-8320-992b55e55dd3\",\"col\":7,\"row\":10}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-3\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-5\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-6\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-7\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-8\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-15m",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  },
+  {
+    "_id": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+    "_type": "search",
+    "_source": {
+      "title": "log-to-kafka",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"stats-index*\",\"highlightAll\":true,\"version\":true,\"filter\":[],\"query\":{\"query_string\":{\"query\":\"log-to-kafka\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "3f137b60-a74a-11e8-b030-3ff0d21ba416",
+    "_type": "search",
+    "_source": {
+      "title": "source_host",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "source_host"
+      ],
+      "sort": [
+        "receive_time",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"es-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"cache32\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+    "_type": "search",
+    "_source": {
+      "title": "omkafka",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "data.name"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"stats-index*\",\"highlightAll\":true,\"version\":true,\"filter\":[],\"query\":{\"query_string\":{\"query\":\"omkafka\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_id": "702d0fe0-a74a-11e8-b030-3ff0d21ba416",
+    "_type": "search",
+    "_source": {
+      "title": "source_cache10",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "source_host"
+      ],
+      "sort": [
+        "receive_time",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"es-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"cache10\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8dfb8650-a74a-11e8-b030-3ff0d21ba416",
+    "_type": "search",
+    "_source": {
+      "title": "source_cache37",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "source_host"
+      ],
+      "sort": [
+        "receive_time",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"es-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"cache37\"}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ab7b3b90-ba45-11e8-8400-5f3f7e6572c0",
+    "_type": "search",
+    "_source": {
+      "title": "delivery-process",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "data.name"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"stats-index*\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"delivery\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+    "_type": "search",
+    "_source": {
+      "title": "tracking-process",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "data.name"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"stats-index*\",\"highlightAll\":true,\"version\":true,\"query\":{\"query_string\":{\"query\":\"tracking\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d7333740-a6a6-11e8-93b2-fbe72361c904",
+    "_type": "visualization",
+    "_source": {
+      "title": "Total Message",
+      "visState": "{\"title\":\"Total Message\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"es-*\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ac568fe0-a74b-11e8-b030-3ff0d21ba416",
+    "_type": "visualization",
+    "_source": {
+      "title": "count_cache32",
+      "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"}],\"listeners\":{},\"params\":{\"fontSize\":60,\"handleNoResults\":true},\"title\":\"count_cache32\",\"type\":\"metric\"}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "3f137b60-a74a-11e8-b030-3ff0d21ba416",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "761e4080-a74b-11e8-b030-3ff0d21ba416",
+    "_type": "visualization",
+    "_source": {
+      "title": "count_cache10",
+      "visState": "{\"title\":\"count_cache10\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "702d0fe0-a74a-11e8-b030-3ff0d21ba416",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "85f3bfd0-a74b-11e8-b030-3ff0d21ba416",
+    "_type": "visualization",
+    "_source": {
+      "title": "count_cache37",
+      "visState": "{\"title\":\"count_cache37\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "8dfb8650-a74a-11e8-b030-3ff0d21ba416",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c1224670-ab5c-11e8-84fc-a10d5432b172",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sum-Process",
+      "visState": "{\"title\":\"Sum-Process\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"70\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e9b08200-ab5c-11e8-84fc-a10d5432b172",
+    "_type": "visualization",
+    "_source": {
+      "title": "Sum-Submiited",
+      "visState": "{\"title\":\"Sum-Submiited\",\"type\":\"metric\",\"params\":{\"handleNoResults\":true,\"fontSize\":\"71\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "75fca560-ac46-11e8-813c-bbe6375ccd6c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_App20",
+      "visState": "{\"title\":\"Rsyslog_Process_App20\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"app20\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "609e1840-a451-11e8-8d4e-b3633d22339c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Log-to-Kafka",
+      "visState": "{\"title\":\"Log-to-Kafka\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showMeticsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.name.keyword\",\"include\":\"log-to-kafka\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c4e16560-a3c9-11e8-af81-5bab00f837a5",
+    "_type": "visualization",
+    "_source": {
+      "title": "omkafka",
+      "visState": "{\"title\":\"omkafka\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.name.keyword\",\"include\":\"omkafka\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8083ac70-ac34-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache28",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache28\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache28\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bf5f61e0-ac3a-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache32",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache32\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache32\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "2c98f5f0-ac3b-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache48",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache48\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache48\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "722fe6f0-ac3b-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache49",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache49\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache49\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4810d660-ac34-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache10",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache10\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache10\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c551f970-ac38-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache29",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache29\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache29\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "14a67a70-ac3c-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache50",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache50\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache50\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a53a4df0-ac46-11e8-813c-bbe6375ccd6c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_App21",
+      "visState": "{\"title\":\"Rsyslog_Process_App21\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"app21\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "60da88f0-ac3c-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache55",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache55\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache55\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "991ed4f0-ac3c-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache56",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache56\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache56\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c832d570-ac3c-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache57",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache57\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache57\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "dd331300-ac3b-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache51",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache51\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache51\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "fb015170-ac32-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache28",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache28\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache28\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "45644970-ac33-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache29",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache29\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache29\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c886f470-ac32-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache10",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache10\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache10\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "459b8b70-ac46-11e8-813c-bbe6375ccd6c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_App21",
+      "visState": "{\"title\":\"Rsyslog_Submitted_App21\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"app21\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "263202a0-ac46-11e8-813c-bbe6375ccd6c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_App20",
+      "visState": "{\"title\":\"Rsyslog_Submitted_App20\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"app20\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "660ce1f0-ac33-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache32",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache32\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache32\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "52b835b0-ac2d-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache51",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache51\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache51\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bba29e70-ac2e-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache55",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache55\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache55\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "26cafe60-ac32-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache56",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache56\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache56\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "508b9f70-ac32-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache57",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache57\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache57\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8368dcf0-ac32-11e8-9367-dd2b5b2ff2b4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache58",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache58\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache58\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d4647580-abf9-11e8-858a-edafa8b89cb0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache48",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache48\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache48\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "72714970-abfe-11e8-858a-edafa8b89cb0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache49",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache49\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache49\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ad353b70-abfe-11e8-858a-edafa8b89cb0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache50",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache50\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache50\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "8e8abe40-ac3d-11e8-a94a-e17a912bcb5c",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache58",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache58\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache58\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Message.Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "e8130550-b636-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache02",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache02\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache02\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "2a498d40-b637-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache06",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache06\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache06\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "d3990ec0-b637-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache09",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache09\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache09\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "0fe01e50-b638-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache15",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache15\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache15\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "2beebc50-b638-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache22",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache22\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache22\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4d371740-b638-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache23",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache23\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache23\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "7cca0bc0-b638-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache26",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache26\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache26\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "f2164650-b638-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache02",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache02\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache02\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"include\":\"\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "879ea680-b63a-11e8-ad56-d3f4bb8101cd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache26",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache26\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache26\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c06ce300-b63a-11e8-ad56-d3f4bb8101cd",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache27",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache27\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache27\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "27dfce50-b639-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache06",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache06\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache06\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "938db950-b639-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache09",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache09\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache09\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "bd483fe0-b639-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache15",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache15\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache15\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "146b39d0-b63a-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache22",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache22\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache22\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "44afcb10-b63a-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Cache23",
+      "visState": "{\"title\":\"Rsyslog_Process_Cache23\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache23\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "2f7c9600-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "9ba7cf50-b638-11e8-87d3-0505dbe94689",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache27",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache27\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache27\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "40361290-ba47-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Delivery_Cache06",
+      "visState": "{\"title\":\"Rsyslog_Process_Delivery_Cache06\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache06\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "ab7b3b90-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ef9c6a90-ba47-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Delivery_Cache09",
+      "visState": "{\"title\":\"Rsyslog_Process_Delivery_Cache09\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache09\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "ab7b3b90-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "40ff6090-ba48-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Delivery_Cache15",
+      "visState": "{\"title\":\"Rsyslog_Process_Delivery_Cache15\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache15\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "ab7b3b90-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "089f3a10-ba46-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Delivery_Cache02",
+      "visState": "{\"title\":\"Rsyslog_Process_Delivery_Cache02\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache02\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "83aa99f0-b7f0-11e8-99f1-6197c5d00f9f",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Submitted_Cache01",
+      "visState": "{\"title\":\"Rsyslog_Submitted_Cache01\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.submitted\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache01\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "22cb1300-a308-11e8-88d1-2f3d1684e9c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "1d1ff520-ba4a-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Tracking_cache02",
+      "visState": "{\"title\":\"Rsyslog_Process_Tracking_cache02\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache02\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "4dee8f30-ba50-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Tracking_cache22",
+      "visState": "{\"title\":\"Rsyslog_Process_Tracking_cache22\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache22\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "49e8b0a0-ba4b-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Tracking_cache06",
+      "visState": "{\"title\":\"Rsyslog_Process_Tracking_cache06\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache06\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "ff992420-ba4b-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Tracking_cache09",
+      "visState": "{\"title\":\"Rsyslog_Process_Tracking_cache09\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache09\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "164093f0-ba49-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Delivery_Cache23",
+      "visState": "{\"title\":\"Rsyslog_Process_Delivery_Cache23\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache23\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "ab7b3b90-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "a78e2610-ba49-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Delivery_Cache27",
+      "visState": "{\"title\":\"Rsyslog_Process_Delivery_Cache27\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache27\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "ab7b3b90-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "b7916190-ba48-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Delivery_Cache22",
+      "visState": "{\"title\":\"Rsyslog_Process_Delivery_Cache22\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache22\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "ab7b3b90-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "47ad7890-ba49-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Delivery_Cache26",
+      "visState": "{\"title\":\"Rsyslog_Process_Delivery_Cache26\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache26\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "ab7b3b90-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "2746a730-ba4d-11e8-8400-5f3f7e6572c0",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Tracking_cache15",
+      "visState": "{\"title\":\"Rsyslog_Process_Tracking_cache15\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache15\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "53229e70-ba5e-11e8-8320-992b55e55dd3",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Tracking_cache23",
+      "visState": "{\"title\":\"Rsyslog_Process_Tracking_cache23\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache23\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "9189cee0-ba5e-11e8-8320-992b55e55dd3",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Tracking_cache26",
+      "visState": "{\"title\":\"Rsyslog_Process_Tracking_cache26\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache26\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Host\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "c2467650-ba5e-11e8-8320-992b55e55dd3",
+    "_type": "visualization",
+    "_source": {
+      "title": "Rsyslog_Process_Tracking_cache27",
+      "visState": "{\"title\":\"Rsyslog_Process_Tracking_cache27\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"data.processed\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"bucket\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"h\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"host.keyword\",\"include\":\"cache27\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"data.failed\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Failed\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId": "bcf9fe10-ba45-11e8-8400-5f3f7e6572c0",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]
