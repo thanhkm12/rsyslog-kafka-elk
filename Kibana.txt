@@ -1,0 +1,24 @@
+1. Install Kibana
+
+
+yum install https://artifacts.elastic.co/downloads/kibana/kibana-5.4.1-x86_64.rpm
+
+
+2. Modify config
+
+
+vim /etc/kibana/kibana.yml
+
+  elasticsearch.url: "http://elasticsearc-hostname:9200"
+  server.host: 0.0.0.0
+  elasticsearch.requestTimeout: 300000
+
+3. Restart Kibana
+
+
+service kibana restart
+
+
+4. Access GUI
+
+http://kibana-hostname:5601
